@@ -34,13 +34,12 @@ public class DemoInChrome {
 			driver.findElement(By.name("PASSWORD")).sendKeys("1234");
 			driver.findElement(By.linkText("Forgot Username/Password?")).click();*/
 			
-				driver.get("https://www.facebook.com/");
-				driver.findElement(By.className("inputtext")).sendKeys("hello");
-				driver.findElement(By.className("inputtext")).sendKeys("123456");
-			
-			
-			
-			//driver.close();
+			//	driver.get("https://www.facebook.com/");
+			//	driver.findElement(By.className("inputtext")).sendKeys("hello");
+			//	driver.findElement(By.className("inputtext")).sendKeys("123456");
+			driver.get("https://www.citigroup.com/canada/en/");
+			driver.
+			driver.close();
 			
 			
 	}
